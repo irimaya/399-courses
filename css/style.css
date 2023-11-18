@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Main Styles */
+html,
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Bootstrap 5 */
+.text-primary {
+	color: #3c3456 !important;
+}
+
+.text-secondary {
+	color: #4c6fe1 !important;
+}
+
+.btn-secondary {
+	background: #4c6fe1;
+	border: 0;
+}
+
+.bg-warning {
+	background: #f9f9f9 !important;
+	border: 0;
+}
+.bg-secondary {
+	background: #4c6fe1 !important;
+	border: 0;
+}
+
+/* Utility Classes */
+.py-6 {
+	padding: 120px 0;
+}
+
+.py-7 {
+	padding: 80px 0;
+}
+
+.smaller {
+	font-size: 12px;
+}
+
+/* Header */
+.header {
+	background: url('/images/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* About */
+.about img {
+	width: 40px;
+}
+
+/* User */
+.user {
+	width: 40px;
+	height: 40px;
+}
+
+.time {
+	margin-top: -30px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+	.showcase {
+		text-align: center;
+	}
+	.py-6 {
+		padding: 50px 0;
+	}
+}
